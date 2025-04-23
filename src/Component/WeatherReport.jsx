@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-//report changes
+//report changes progress
 const WeatherApp = () => {
   const [city, setCity] = useState('');
   const [weatherData, setWeatherData] = useState(null);
